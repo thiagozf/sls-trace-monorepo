@@ -1,0 +1,7 @@
+name: sls-trace-monorepo
+
+blog:
+  component: serverless-next.js@1.12.0-alpha.7
+  inputs:
+    nextConfigDir: ./packages/nextjs-blog
+    useServerlessTraceTarget: true
