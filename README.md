@@ -15,7 +15,7 @@ echo '{
 npm init next-app packages/nextjs-blog --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"
 ```
 
-2. Check that all modules are installed in repo's root instead, while `packages/nextjs-blog/node_modules` is empty (just a symlink to `.next` bin)
+2. Check that all modules are installed in repo's root, while `packages/nextjs-blog/node_modules` is empty (just a symlink to `.next` bin)
 
 3. Add a SSR page for good measure
 
